@@ -1,0 +1,61 @@
+<!--pages/php/php.wxml-->
+<wxs src="../../utils/wxs/lengthFilter.wxs" module="lengthFilter"></wxs>
+<view class="nav_top">
+    <view class="nav_top_link">
+        <image class="nav_top_left" src="/images/logo.png" />
+    </view>
+    <view class="nav_top_right">
+        <image class="nav_top_left" src="/images/search.png" />
+    </view>
+</view>
+<view class="pic">
+    <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}">
+        <block wx:for="{{[1,2,3,4,5,6,7,8,9,10]}}" wx:key="key">
+            <swiper-item>
+                <image class="swiper-image" src="/images/logo{{item}}.jpg" />
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+<view class="cate_nav">
+    <block wx:for="{{course}}" wx:key="key">
+        <view class="course">
+            <view class="course_img">
+                <image src="/images/icon_index_{{item.id}}.png" />
+            </view>
+            <view class="course_name">
+                <text>{{item.name}}</text>
+            </view>
+        </view>
+    </block>
+</view>
+<view class="main">
+    <view class="lable">
+        <text class="shu"> | </text>
+        <text>就业课</text>
+        <text class="text_3">更多</text>
+    </view>
+    <scroll-view class="sview" scroll-y="{{true}}" >
+        <view class="main_index" wx:for="{{items}}" wx:key="key">
+            <navigator url="/pages/list/list?id={{item.id}}">
+                <view class="main_index_left">
+                    <image src="{{item.cover}}" />
+                </view>
+            </navigator>
+            <view class="main_index_right">
+                <view class="text_top">
+                    <text>{{item.name}}在线就业班</text>
+                </view>
+                <view class="text_center">
+                    <text>{{lengthFilter.mySub(item.introduce)}}</text>
+                </view>
+                <view class="text_bottom">
+                    <text>100人学习</text>
+                </view>
+                <view class="text_color">
+                    <text>￥{{item.price}}</text>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+</view>

@@ -1,0 +1,5 @@
+/* pages/str/str.wxss */
+.sview{
+    width: 750rpx;
+    height: 700rpx;
+}

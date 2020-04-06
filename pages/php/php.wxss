@@ -1,0 +1,118 @@
+/* pages/php/php.wxss */
+.nav_top {
+    width: 750rpx;
+}
+.nav_top_link {
+    width: 182rpx;
+    height: 52rpx;
+    float: left;
+    margin-left: 30rpx;
+    align-items: center;
+    justify-content: center;
+}
+.nav_top_left {
+    width: 100%;
+    height: 100%;
+}
+.nav_top_right {
+    width: 36rpx;
+    height: 36rpx;
+    float: right;
+    margin-right: 30rpx;
+    align-items: center;
+}
+.nav_top_right_image {
+    width: 100%;
+    height: 100%;
+}
+.pic {
+    width: 750rpx;
+    height: 300rpx;
+}
+.pic image {
+    width: 100%;
+    height: 100%;
+}
+.cate_nav {
+    width: 730rpx;
+    height: 200rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80rpx;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+}
+.course {
+
+}
+.course_img {
+    width: 74rpx;
+    height: 74rpx;
+}
+.course_img image {
+    width: 100%;
+    height: 100%;
+}
+.course_name {
+    text-align: center;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    border-radius: 10rpx;
+}
+.lable {
+    display: flex;
+    height: 10rpx;
+}
+.shu {
+    float: left;
+    margin-left: 10rpx;
+    color: orange;
+}
+.lable text {
+    float: left;
+    margin-left: 10rpx;
+}
+.text_3 {
+    float: right;
+    margin-right: 30rps;
+}
+.sview {
+    
+}
+.main_index {
+    display: flex;
+    margin-top: 40rpx;
+}
+.main_index_left {
+    width: 300rpx;
+    height: 183rpx;
+}
+.main_index_left image {
+    width: 100%;
+    height: 100%;
+    border-radius: 6rpx;
+}
+.main_index_right {
+    display: flex;
+    flex-direction: column;
+    font-size: 20rpx;
+    margin-left: 20rpx;
+    justify-content: space-between;
+}
+.text_top {
+    font-size: 28rpx;
+}
+.text_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text_center {
+    color:rgb(168,166,166);
+}
+.text_color {
+    color: red;
+}

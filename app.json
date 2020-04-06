@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/php/php",
+    "pages/detail/detail",
+    "pages/list/list",
+    "pages/str/str",
+    "pages/cache/cache",
+    "pages/me/me",
+    "pages/web/web",
+    "pages/job/job",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTitleText": "熊大优品",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#ff0000",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/php/php",
+        "text": "php核心",
+        "iconPath": "/images/icon_home.png",
+        "selectedIconPath": "/images/icon_home_active.png"
+      },
+      {
+        "pagePath": "pages/web/web",
+        "text": "web前端",
+        "iconPath": "/images/icon_cate.png",
+        "selectedIconPath": "/images/icon_cate_active.png"
+      },
+      {
+        "pagePath": "pages/job/job",
+        "text": "工作面试",
+        "iconPath": "/images/icon_cart.png",
+        "selectedIconPath": "/images/icon_cart_active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "/images/icon_me.png",
+        "selectedIconPath": "/images/icon_me_active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000
+  },
+  "sitemapLocation": "sitemap.json"
+}

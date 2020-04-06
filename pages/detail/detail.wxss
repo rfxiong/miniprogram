@@ -1,0 +1,13 @@
+/* pages/detail/detail.wxss */
+.vbox{
+    height: 340rpx;
+    width: 750rpx;
+}
+.vbox video {
+    height: 100%;
+    width: 100%;
+}
+.name text {
+    font-size: 35rpx;
+    color: #666;
+}

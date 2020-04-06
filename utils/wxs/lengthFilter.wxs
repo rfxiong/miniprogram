@@ -1,0 +1,9 @@
+function mySub(str){
+    if (str.length >20){
+        return str.substring(0,17)+'...';
+    }
+    return str;
+}
+
+//导出
+module.exports.mySub = mySub;

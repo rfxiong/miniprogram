@@ -1,0 +1,46 @@
+<!--index.wxml-->
+<view class="topnav">
+  <view class="topnav_link">
+    <image src="/images/icon_nav_search.png" class="topnav_link_icon"></image>
+    <text class="topnav_link_search">搜索</text>
+  </view>
+</view>
+<swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}">
+  <block wx:for="{{[1,2,3,4]}}" wx:key="key">
+    <swiper-item>
+      <image src="/images/banner{{item}}.jpg" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class="cate_nav">
+  <block wx:for="{{[1,2,3,4,5]}}" wx:key="key">
+    <image src="/images/cate{{item}}.jpg"></image>
+  </block>
+</view>
+<view class="hengfu">
+  <image src="/images/hengfu.jpg"></image>
+</view>
+<view class="items">
+  <view class="items_left">
+    <image src="/images/girl0.jpg"></image>
+  </view>
+  <view class="items_right">
+    <view class="items_right_item">
+      <view>
+        <image src="/images/girl1.jpg"></image>
+      </view>
+      <view>
+        <image src="/images/girl2.jpg"></image>  
+      </view>
+  
+    </view>
+    <view class="items_right_item">
+      <view>
+        <image src="/images/girl3.jpg"></image>  
+      </view>
+      <view>
+        <image src="/images/girl4.jpg"></image>  
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<!--pages/detail/detail.wxml-->
+<view class="vbox">
+    <video src="" poster="{{info.less_id.cover}}"></video>
+</view>
+<view class="name">
+    <text >{{info.name}}</text>
+</view>

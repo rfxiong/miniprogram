@@ -1,0 +1,9 @@
+<!-- pages/str/str.wxml -->
+<scroll-view class="sview" scroll-y="{{true}}" bindscrolltolower="getMore" enable-back-to-top="{{true}}" scroll-with-animation="{{true}}">
+    <view class="" wx:for="{{users}}" wx:key="key">
+    {{item.id}} {{item.username}}
+    </view>
+</scroll-view>
+<view class="">
+    <text >{{ name }}</text>
+</view>

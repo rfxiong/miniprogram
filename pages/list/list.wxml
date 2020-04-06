@@ -1,0 +1,8 @@
+<!--pages/list/list.wxml-->
+<view class="">
+    <view wx:for="{{items}}" wx:key="key">
+        <navigator url="/pages/detail/detail?id={{item.id}}">
+            <view >{{item.name}} {{item.duration}}</view>
+        </navigator>
+    </view>
+</view>
